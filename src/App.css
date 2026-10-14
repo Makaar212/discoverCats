@@ -1,6 +1,8 @@
 body {
   text-align: center;
   margin: 0;
+  background-color: #0d0d0d;
+  color: #e6e6e6;
 }
 
 .mainContainer {
@@ -9,11 +11,15 @@ body {
   align-items: stretch;
   min-height: 100vh;
   justify-content: space-around;
+  gap: 32px;
 }
 
 .pictureContainer {
-  border: 1px solid black;
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 16px;
   width: 600px;
+  background-color: #1a1a1a;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -25,7 +31,9 @@ body {
   margin-bottom: 16px;
 }
 .banlist {
-  border: 1px solid black;
+  border: 1px solid #333;
+  background-color: #d4d4d4;
+  color: #1a1a1a;
   flex: 0 0 300px;
   box-sizing: border-box;
 }
