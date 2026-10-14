@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  min-height: 100vh;
+  justify-content: space-around;
+}
+
+.pictureContainer {
+  border: 1px solid black;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.discover {
+  align-self: center;
+  padding: 8px 24px;
+  margin-bottom: 16px;
+}
+.banlist {
+  border: 1px solid black;
+  flex: 0 0 300px;
+  box-sizing: border-box;
+}
