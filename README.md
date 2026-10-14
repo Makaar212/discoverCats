@@ -1,10 +1,10 @@
-# Web Development Project 4 - *Find Your Next Cat*
+# Web Development Project 4 - _Find Your Next Cat_
 
 Submitted by: **Reagan George**
 
 This web app: **Find Your Next Cat is a web app where every click of the Discover button shows you a random cat. If there are certain attributes you don't want to see, you can add them to the ban list by clicking on them, and cats with those attributes won't appear. You can also remove an attribute from the ban list by clicking on it in the ban list.**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
@@ -19,15 +19,14 @@ The following **required** functionality is completed:
 - [x] **API call response results should appear random to the user**
   - Clicking on the API call button should generate a seemingly random new result each time
   - Note: Repeat results are permitted but the API used should have a reasonably large amount of data and repeats should not be frequent
-- [x] **Clicking on a displayed value for one attribute adds it to a displayed ban **list**
+- [x] **Clicking on a displayed value for one attribute adds it to a displayed ban **list\*\*
   - At least one attribute for each API result should be clickable
   - Clicking on a clickable attribute not on the ban list, should imnmediately add it to the ban list
   - Clicking on an attribute in the ban list should immediately remove it from the ban list
 - [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
   - Clicking on the API call button should not result in any image/attributes with attribute values in the ban list being displayed (ex. Using a cat API, if the ban list includes the value 'Siberian' for the breed attribute, clicking on the Discover button should never result in a Siberian cat being displayed)
   - Note: More attribute values on the ban list may result in a higher frequency of repeat results
-  -  [x] _To ensure an accurate grade, your recording **must** show that when clicked, an attribute in the ban list is immediately removed from the list of banned attributes_
-
+  - [x] _To ensure an accurate grade, your recording **must** show that when clicked, an attribute in the ban list is immediately removed from the list of banned attributes_
 
 The following **optional** features are implemented:
 
@@ -35,8 +34,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] A loading state shows while the API is fetching a new cat, and the Discover button is disabled until it finishes
-* [x] If no cat can be found that isn't banned, a message lets the user know
+- [x] A loading state shows while the API is fetching a new cat, and the Discover button is disabled until it finishes
+- [x] If no cat can be found that isn't banned, a message lets the user know
 
 ## Video Walkthrough
 
