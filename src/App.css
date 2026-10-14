@@ -2,6 +2,11 @@ body {
   text-align: center;
   margin: 0;
   background-color: #0d0d0d;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./assets/cat-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: #e6e6e6;
 }
 
@@ -36,4 +41,22 @@ body {
   color: #1a1a1a;
   flex: 0 0 300px;
   box-sizing: border-box;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 4px;
+  background-color: #e6e6e6;
+  color: #0d0d0d;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.8);
 }
